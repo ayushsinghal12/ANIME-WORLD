@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+}
+
+a {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background: cyan;
+    transform: scale(1, 1);
+    transition: 0.3s;
+    color: navy;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.2, 1.2);
+    color: red;
+}
